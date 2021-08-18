@@ -1,0 +1,65 @@
+.main-who-are-we-sec {
+    @media screen and (max-width:1500px) {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .wrapper {
+        padding:13rem 7rem;
+        width: 80%;
+        display:flex;
+        flex-direction:column;
+        @media screen and (max-width:700px) {
+            width:100%;
+            padding:13rem 2rem;
+        }
+
+        .heading {
+            font-family: "helvetica-now";
+            font-size: 3rem;
+            @media screen and (max-width:700px) {
+                text-align: center;
+            }
+            @media screen and (max-width:400px) {
+                font-size:2.4rem;
+            }
+
+
+        }
+
+        .the-text {
+            font-size:1.2rem;
+            font-family: "helvetica-now";
+            padding:2rem 0rem;
+            color:#8c8c8c;
+            @media screen and (max-width:400px) {
+                font-size:1rem;
+                
+            }
+
+        }
+        .know-button-wrapper{
+            width:100%;
+
+            .know-btn {
+                align-self: flex-end;
+                font-family: "helvetica-now";
+                margin-right: -4rem;
+                font-size: 1.6rem;
+                text-decoration: none;
+                color:#f3f3f3;
+                 
+             }
+             @media  screen and (max-width:700px) {
+                text-align: center;
+                .know-btn{
+                    margin:0;
+                }
+                
+                
+            }
+        }
+        
+    }
+}

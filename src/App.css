@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+
+@font-face {
+  font-family: "helvetica-now-light";
+  src: local("helvetica-now-light"), url("./fonts/helvetica\ now/HelveticaNowText-Light.ttf");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "millimeter";
+  src: local("millimeter"), url("./fonts/basis.ttf");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "millimeter-light";
+  src: local("millimeter-light"), url("./fonts/basis-light.ttf");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: "helvetica-now";
+  src: local("helvetica-now"), url("./fonts/basis.ttf");
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: "helvetica-now-light";
+  src: local("helvetica-now-light"), url("./fonts/basis-light.ttf");
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: "commune";
+  src: local("commune"), url("./fonts/Commune-Nuit_Debout_web.ttf");
 }
+
+* {
+  font-family: "millimeter";
+  scroll-behavior: smooth;
+}
+
+.loader-logo {
+  animation:rotate 1s linear infinite;
+}
+
+
+@keyframes rotate{
+  from{ transform: rotate(-360deg); }
+  to{ transform: rotate(360deg); }
+}
+
+
+
+
+
+
+
+

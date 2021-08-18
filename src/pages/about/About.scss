@@ -1,0 +1,119 @@
+.main-about-container {
+    min-height: 100vh;
+    padding-top: 64px;
+    background-color: black !important;
+    background: url(../../images/2.svg) no-repeat center left;
+    color:white;
+    .main-about-wrapper {
+        min-height: 100vh;
+        padding: 12rem 10rem 8rem 10rem;
+        position: relative;
+
+        @media only screen and (max-width: 1200px) {
+            padding:12rem 8rem 8rem 8rem;
+        }
+
+        @media only screen and (max-width: 1000px) {
+            padding:12rem 6rem 8rem 6rem;
+        }
+
+        @media only screen and (max-width: 780px) {
+            padding:8rem 4rem 8rem 4rem;
+        }
+
+        @media only screen and (max-width: 590px) {
+            padding:8rem 2rem 8rem 2rem;
+        }
+
+        @media only screen and (max-width: 420px) {
+            padding:8rem 1rem 8rem 1rem;
+        }
+
+        .title {
+            font-size: 3rem;
+            font-family: "helvetica-now";
+
+            @media only screen and (max-width: 590px) {
+                font-size: 2.2rem;
+            }
+        }
+
+        .about-txt {
+            font-size: 1.3rem;
+            padding: 3rem 0rem;
+            color: #8c8c8c;
+
+            @media only screen and (max-width: 590px) {
+                font-size: 1rem;
+                padding:1.5rem 0rem;
+            }
+
+            .txt-1 {
+                .hi {
+                    font-size: 1.8rem;
+
+                    @media only screen and (max-width: 590px) {
+                        font-size: 1.3rem;
+                    }
+
+                }
+            }
+        }
+
+        .profile-sec {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .profile {
+                display: flex;
+                flex-direction: column;
+                margin: 1.5rem 2.5rem;
+
+                .profile-image {
+                    width: 25rem;
+                    height: 25rem;
+                    object-fit: cover;
+                    border-radius: 8px;
+                    opacity:0.5;
+                    background: #f9f9f9;
+
+                    @media only screen and (max-width: 590px) {
+                        width: 20rem;
+                        height: 20rem;
+                    }
+
+                    @media only screen and (max-width: 393px) {
+                        width: 16rem;
+                        height: 16rem;
+                    }
+
+                    @media only screen and (max-width: 280px) {
+                        width: 12rem;
+                        height: 12rem;
+                    }
+                }
+
+                .name {
+                    font-size: 1.8rem;
+                    margin-top: 0.4rem;
+                    // color: #111;
+
+                    @media only screen and (max-width: 590px) {
+                        font-size:1.3rem;
+                    }
+                }
+
+                .desig {
+                    font-size: 1.1rem;
+                    color: #8c8c8c;
+
+                    @media only screen and (max-width: 590px) {
+                        font-size:0.9rem;
+                    }
+                }
+            }
+        }
+    }
+}

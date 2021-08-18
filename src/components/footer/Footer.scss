@@ -1,0 +1,28 @@
+.main-footer-container {
+    height:5rem;
+    background-color: black;
+    padding-bottom:1rem;
+    .wrapper {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        justify-content: center;
+        
+        // padding:0rem 7rem;
+
+        .lofo-sec{
+            // margin:2rem 0;
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            .text{
+                padding-top:0.8rem;
+                color:#8C8C8C;
+
+            }
+        }
+
+        
+    }
+}
