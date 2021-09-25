@@ -1,10 +1,8 @@
 import React, { useEffect, useRef } from 'react'
 import { Container, Image } from 'react-bootstrap'
 import './Featured.scss'
-import solar2 from '../../images/2.svg';
-import solar3 from '../../images/3.svg'
-import planetsImage from '../../images/planets.svg';
-import { Link, useNavigate } from 'react-router-dom'
+import solar2 from '../../images/2.svg'
+import {useNavigate } from 'react-router-dom'
 
 const Featured = () => {
 
@@ -196,11 +194,11 @@ const Featured = () => {
                         <div  className="title">Moonnets</div>
                     <div className="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac sem sapien.</div>
                     </div>
-                    <div className="pro-2"  onClick={e=>{goToURL('/')}}>
+                    {/* <div className="pro-2"  onClick={e=>{goToURL('/')}}>
                         <Image src={planetsImage} className="picture" />
                         <div  className="title">Planets</div>
                         <div className="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac sem sapien.</div>
-                    </div>
+                    </div> */}
               
         
                 </div>

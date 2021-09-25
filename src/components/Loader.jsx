@@ -4,7 +4,7 @@ import { Container, Spinner } from 'react-bootstrap'
 const Loader = () => {
     return (
         <Container fluid style={{
-            background: "#08061B",
+            background: "#000000",
             minHeight:"100vh"
         }} className="d-flex justify-content-center align-items-center h-100 w-100">
 

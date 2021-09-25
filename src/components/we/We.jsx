@@ -19,15 +19,15 @@ const We = () => {
           interdisciplinary and thereby convolve a new perspective for crypto
           trading over and beyond just buying or selling. Being an
           environmentally conscious team that wants to bring about a societal
-          impact, we plan to plant 100 trees for each auctioned (the
+          impact, we plan to plant 1000 trees for each Emerald Tier (the
           “elitist”) card purchase!
         </div>
-        <div className="know-button-wrapper">
-        <Link to="/about" className="know-btn">
-          Know more about us
-        </Link>
+
+        <div className="know-btn-wrapper">
+          <Link to="/about" className="know-btn">
+            Know more about us
+          </Link>
         </div>
-      
       </div>
     </Container>
   )
